@@ -1,0 +1,192 @@
+header {
+	background-image: url(../IMG/Background.png);
+	width: 100%;
+	position: absolute;
+	top: -300px;
+	left: 0px;
+	height: 900px;
+	image-orientation: revert;
+}
+.Logo {
+	width: 700px;
+	height: auto;
+	margin-left: 600px;
+	margin-top: 320px;
+}
+.grilleEntête {
+	position: absolute;
+	top: 720px;
+	left: 125px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 200px;
+	grid-gap: 55px;
+	grid-template-areas: "a b c d e";
+}
+.contactLogo {
+	width: 300px;
+	height: auto;
+	grid-area: a;
+}
+.contactLogo:hover {
+	border-top: solid;
+	border-color: #70bedb;
+}
+.awsLogo {
+	width: 300px;
+	height: auto;
+	grid-area: b;
+	margin-top: 15px;
+}
+.awsLogo:hover {
+	border-top: solid;
+	border-color: #70bedb;
+}
+.newsLogo {
+	width: 300px;
+	height: auto;
+	grid-area: c;
+}
+.newsLogo:hover {
+	border-top: solid;
+	border-color: #70bedb;
+}
+.QNSLogo {
+	width: 300px;
+	height: auto;
+	grid-area: d;
+	margin-top: 15px;
+}
+.QNSLogo:hover {
+	border-top: solid;
+	border-color: #70bedb;
+}
+.LPSLogo {
+	width: 300px;
+	height: auto;
+	grid-area: e;
+	margin-top: -10px;
+}
+.LPSLogo:hover {
+	border-top: solid;
+	border-color: #70bedb;
+}
+
+.textFoot1 {
+	position: absolute;
+	color: white;
+	top: 517px;
+}
+footer {
+	background-image: url(../IMG/Footer1.png);
+	width: 100%;
+	height: 570px;
+	position: absolute;
+	left: 0px;
+	top: 2010px;
+}
+body {
+	background-color: #050d10;
+}
+.img {
+	width: 300px;
+	height: auto;
+}
+.boite1 {
+	position: absolute;
+	background-color: #FBFBFB;
+	height: 400px;
+	top: 700px;
+	left: 400px;
+}
+.boite1:hover {
+	box-shadow: 0px 0px 15px 15px #70bedb;
+}
+.boite2 {
+	position: absolute;
+	background-color: #FBFBFB;
+	height: 400px;
+	top: 700px;
+	left: 800px;
+}
+.boite2:hover{
+	box-shadow: 0px 0px 15px 15px #70bedb;
+}
+.boite3 {
+	position: absolute;
+	background-color: #FBFBFB;
+	height: 400px;
+	top: 700px;
+	left: 1200px;
+}
+.boite3:hover {
+	box-shadow: 0px 0px 15px 15px #70bedb;
+}
+.boite4 {
+	position: absolute;
+	background-color: #FBFBFB;
+	height: 400px;
+	top: 1150px;
+	left: 400px;
+}
+.boite4:hover {
+	box-shadow: 0px 0px 15px 15px #70bedb;
+}
+.boite5 {
+	position: absolute;
+	background-color: #FBFBFB;
+	height: 400px;
+	top: 1150px;
+	left: 800px;
+}
+.boite5:hover {
+	box-shadow: 0px 0px 15px 15px #70bedb;
+}
+.boite6 {
+	position: absolute;
+	background-color: #FBFBFB;
+	height: 400px;
+	top: 1150px;
+	left: 1200px;
+}
+.boite6:hover {
+	box-shadow: 0px 0px 15px 15px #70bedb;
+}
+.boite7 {
+	position: absolute;
+	background-color: #FBFBFB;
+	height: 400px;
+	top: 1600px;
+	left: 400px;
+}
+.boite7:hover {
+	box-shadow: 0px 0px 15px 15px #70bedb;
+}
+.boite8 {
+	position: absolute;
+	background-color: #FBFBFB;
+	height: 400px;
+	top: 1600px;
+	left: 800px;
+}
+.boite8:hover {
+	box-shadow: 0px 0px 15px 15px #70bedb;
+}
+.boite9 {
+	position: absolute;
+	background-color: #FBFBFB;
+	height: 400px;	
+	top: 1600px;
+	left: 1200px;
+}
+.boite9:hover {
+	box-shadow: 0px 0px 15px 15px #70bedb;
+}
+.texte {
+	font-family: fantasy;
+	font-size: 25px;
+	text-align: center;
+}
+.fond {
+	background-image: url(../IMG/BGF.png);
+}
