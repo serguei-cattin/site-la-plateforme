@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/contact.css">
+</head>
+<header>
+	<img onclick="window.location.href ='../accueil.html'" class="Logo" src="../IMG/La_Plateforme.png">
+	<div class="grilleEntête">
+			<img onclick="window.location.href ='contact.html'" class="contactLogo" src="../IMG/Contacts.png">
+			<img onclick="window.location.href ='aws-restart.html'" class="awsLogo" src="../IMG/AWS.png">
+			<img onclick="window.location.href ='news.html'" class="newsLogo" src="../IMG/News.png">
+			<img onclick="window.location.href ='qui-nous-sommes.html'" class="QNSLogo" src="../IMG/QSN.png">
+			<img onclick="window.location.href ='laplateforme-start.html'" class="LPSLogo" src="../IMG/LPS.png">
+		</div>
+</header>
+<body>
+	<form action="" method="get" class="formulaire">
+ 		<div class="boite">
+ 			<p class="titreFormulaire">Remplissez ce formulaire et nous reviendrons vers vous</p>
+	 		<div class="question1">
+	 			<label for="name">Entre ton Nom: </label>
+	    		<input type="text" name="name" id="name" required>
+	 		</div>
+	 		<div class="question2">
+	 			<label for="prénom">Entre ton Prénom: </label>
+	    		<input type="text" name="name" id="prénom" required>
+	 		</div>
+	 		<div class="question3">
+	 			<label>Sexe</label>
+	 			<div>
+	 				<input type="radio" name="sexe" id="Masculin">
+	 				<label for="Masculin">Masculin</label>
+	 				<input type="radio" name="sexe" id="Feminin">
+	 				<label for="Feminin">Feminin</label>
+	 				<input type="radio" name="sexe" id="Autre">
+	 				<label for="Autre">Autre</label>
+	 			</div>
+	 		</div>
+	 		<div class="question4">
+	 			<label>Langue Parlée :</label>
+	 			<input type="checkbox" name="sexe" id="Français">
+	 				<label for="Français">Français</label>
+	 				<input type="checkbox" name="sexe" id="Anglais">
+	 				<label for="Anglais">Anglais</label>
+	 				<label for="Autre">Autre</label>
+	 				<input type="text" name="sexe" id="Autre">
+	 				
+	 		</div>
+	 		<div class="question5">
+	 			<label>Formation intéressé</label>
+	 			<select name="langue">
+					<option value="codingschool">Coding School</option>
+					<option value="aischool">AI School</option>
+					<option value="securityschool">Sécurity School</option>
+					<option value="bachelorit">Bachelor IT</option>
+					<option value="devwev">Développement Web</option> 				
+	 			</select>
+	 		</div>
+	 		<div class="question6">
+	 			<label>Entretien avant les tests ?</label>
+	 			<select name="langue">
+					<option value="ouientretient">Oui je veux un entretient avant les test</option>
+					<option value="nonentretient">Non je n'en ai pas besoin j'ai fait mon choix</option>	
+	 			</select>
+	 		</div>
+	 		<button class="buttonsend">ENVOYER</button>
+ 		</div>
+	</form>
+</body>
+<footer>
+	<p class="textFoot1">© NitrauCorporation. Tous droits réservés. | Mentions légales | Cookies</p>
+</footer>
+</html>
